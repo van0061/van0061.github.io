@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment - 4</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<div class="image-gallery-container image-gallery-overlay" id="image-gallery-overlay">
+		<div id="img-1" class="img-slide active">
+			<img src="facebook.jpg" alt="gallery image 1">
+		</div>
+		<div id="img-2" class="img-slide">
+			<img src="twitter.jpg" alt="gallery image 2">
+		</div>
+		<div id="img-3" class="img-slide">
+			<img src="webpage.jpg" alt="gallery image 3">
+		</div>
+		<div id="img-4" class="img-slide">
+			<img src="yotube.jpg" alt="gallery image 4">
+		</div>
+	</div>
+
+	<header class="site-header clearfix" id="site-header">
+		<div class="logo">logo</div>
+		<h1 class="page-title">page title</h1>
+		<!-- main navigation start -->
+		<nav class="main-nav-container desktop-nav">
+			<ul class="main-nav clearfix">
+				<li>
+					<a href="contact-us.html">contact us</a>
+				</li>
+				<li>
+					<a href="about-us.html">about us</a>
+					<ul class="sub-nav">
+						<li>
+							<a href="team.html">team</a>
+						</li>
+						<li>
+							<a href="history.html">history</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="images.html">Images</a>
+				</li>
+				<li>
+					<a href="final.html">Images</a>
+				</li>
+			</ul>
+		</nav>
+
+		</div>
+		<!-- mobile navigation end -->
+	</header>
+	<!-- header end -->
+	<!-- main start -->
+	<main class="main clearfix" id="main">
+		<!-- site content start -->
+		<article class="col-main site-content">
+			<!-- main content start -->
+			<section class="main-content">
+				<h2>site content</h2>
+				<p>lorem ipsum</p>
+			</section>
+			<!-- main content end -->
+			<!-- image gallery start -->
+			<section class="image-gallery">
+				<h3>Image Gallery</h3>
+
+				<div class="image-gallery-thumb-container clearfix">
+					<!-- data-img-id is an additional attribute used to give custom information that standard attributes cannot provide  -->
+					<div class="img-slide-thumb img-slide-thumb-active" data-img-id="img-1" >
+						<img src="facebook-img-1.jpg" alt="gallery image 1">
+					</div>
+					<div class="img-slide-thumb" data-img-id="img-2">
+						<img src="twitter-img-2.jpg" alt="gallery image 2">
+					</div>
+					<div class="img-slide-thumb" data-img-id="img-3">
+						<img src="webpage-img-3.jpg" alt="gallery image 3">
+					</div>
+					<div class="img-slide-thumb" data-img-id="img-4">
+						<img src="youtube-img-4.jpg" alt="gallery image 4">
+					</div>
+				</div>
+			</section>

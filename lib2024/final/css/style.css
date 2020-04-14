@@ -183,18 +183,6 @@
 		<p>copyright &copy; responsive CSS 2018</p>
 	</footer>
 	<!-- footer end -->
-
-	<!-- script tag is not a self closing tag so it requires </script> to close itself -->
-	<!-- to add an external script file, script tag is used with src attribute containing the path of the script that we would like to include in this document -->
-	<script type="text/javascript" src="scripts/script.js"></script>
-
-	<!-- script tag is an embeded way of adding javascript to your document -->
-	<!-- script tag must be added at the bodttom of your HTML file before the closing of <body> tag -->
-	<!-- this will make sure that all the elements are properly loaded and ready for javascript to interact with them -->
-
-	<script type="text/javascript">
-		document.querySelector('.logo').style.backgroundColor="red";
-	</script>
-
 </body>
 </html>
+	
